@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.19390e40.css","mappings":"AACA,cACI,YACJ,CACA,OAEI,eACJ,CACA,OAEI,eACJ","sources":["App.css"],"sourcesContent":["\r\n.card-img-top{\r\n    height: 186px;;\r\n}\r\n.mt-10\r\n{\r\n    margin-top: 10px;;\r\n}\r\n.mt-80\r\n{\r\n    margin-top: 80px;;\r\n}"],"names":[],"sourceRoot":""}
