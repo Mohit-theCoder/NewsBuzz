@@ -24,7 +24,7 @@ export default class App extends Component {
         <LoadingBar color='#f11946' height={3} progress={this.state.progress} />
         <div>
           <Routes>
-            <Route exact path="/" element={<News setProgress={this.setProgress} key="home" heading=" "/>}/>
+            <Route exact path="/" element={<News setProgress={this.setProgress} key="home" heading=""/>}/>
             <Route exact path="/business" element={<News setProgress={this.setProgress} category="business" key="business" heading=" Business "/>}/>
             <Route exact path="/entertainment" element={<News setProgress={this.setProgress} category="entertainment" key="entertainment" heading=" Entertainment "/>}/>
             <Route exact path="/general" element={<News setProgress={this.setProgress} category="general" key="general" heading=" General "/>}/>

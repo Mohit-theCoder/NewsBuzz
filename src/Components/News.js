@@ -18,7 +18,7 @@ export default class News extends Component {
       loading:false,
       pageNo:1
     };
-    document.title= `NewsBuzz - ${this.props.heading}`
+    document.title= `NewsBuzz - ${this.props.heading===''?"  Get daily update !!!":this.props.heading}`
   }
 
 async componentDidMount(){
@@ -77,7 +77,7 @@ PrevKey= async ()=>{
     return (
       <>
         <div className="container my-3">
-          <h2 className="mt-80">Top {this.props.heading===''?document.title= `NewsBuzz - Get daily update !!!`:this.props.heading} Headlines...</h2>
+          <h2 className="mt-80">Top {this.props.heading===''?` `:this.props.heading} Headlines...</h2>
           {this.state.loading && <Loading/>}
           <div className="row">
             {(this.state.article || []).map((element)=>{
